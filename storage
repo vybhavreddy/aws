@@ -7,4 +7,20 @@ S3
 		- Encryption 
 		- Object Level Logging  
   - Permissions 
-        - 
+        - Public Access On/off (By default it is on) 
+		- Access Control list (Access Sets)
+		- Bucket Policies (Uing aws policy generator you can write policies) 
+		- CORS (Cross origion Resource Sharing) Proper 
+  - Management 
+        - Lifecyle Policies (File LIfecyle  Policies) 
+		- Replication RUles(Same Account or Different Account/Same Regiion or different Region Replication Rules) 
+		- AnalYTICS - storage data analytics 
+		- Metrics 
+		    - Storage 
+			- Requests 
+			- Data trasnfer
+			- Replication 
+	    - Weekly/dAILY / Monthly Reports. 
+	- ACCESSS points 
+	    - S3 Buckets are by default not attached to vpc. 
+		- if you want to restrict the vpc level seggregation , then you create access points. 
