@@ -1,0 +1,10 @@
+S3
+  - types - s3-IA, S3-OneRegional, S3Glacier 
+  - Properties 
+        - Versioning 
+		- Server Access logging 
+		- Static website hosting 
+		- Encryption 
+		- Object Level Logging  
+  - Permissions 
+        - 
